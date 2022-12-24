@@ -96,7 +96,7 @@ a {
     background-repeat: no-repeat;
     background-image: url(assets/img/firstSection.jpeg);
     width: 505px;
-    height: 600px;
+    height: 392px;
 }
 
 /* .glow {
@@ -162,6 +162,16 @@ a {
     word-wrap: break-word;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+.parallaxImg{
+    background-image: url(assets/img/parallax.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
